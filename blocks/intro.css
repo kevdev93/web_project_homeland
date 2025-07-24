@@ -1,23 +1,45 @@
 .intro {
-  max-width: 830px;
-  margin: 126px 0 120px 148px;
-  padding-right: 16px;
+  width: 75%;
+  margin: 126px 0 120px 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+@media (max-width: 1024px) {
+  .intro {
+    width: 100%;
+    margin: 64px 0;
+    padding: 0 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 0 16px;
+  }
+}
 .intro__title h2 {
-  font-family: "Inter Display", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-weight: 900;
   font-size: 56px;
   line-height: 1.2;
   margin: 0 0 32px;
   text-align: left;
+  color: #ffffff;
 }
 
+@media (max-width: 320px) {
+  .intro__title h2 {
+    font-size: 2rem;
+  }
+}
 .intro__quote_text {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 16px;
   text-align: left;
+  font-style: italic;
+  color: #ffffff;
 }
 
 .intro__quote_person {
@@ -35,32 +57,4 @@
   margin-top: 48px;
   text-align: left;
   color: #ffffff;
-}
-
-@media (max-width: 1024px) {
-  .intro {
-    margin: 4rem 1rem 0;
-    max-width: 100%;
-  }
-
-  .intro__title h2 {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 544px) {
-  .intro__title h2 {
-    font-size: 1.5rem;
-  }
-
-  .intro__quote_text,
-  .intro__quote_person,
-  .intro_resume p {
-    font-size: 0.875rem;
-  }
-
-  .intro {
-    margin: 4rem 1rem 0;
-    max-width: 100%;
-  }
 }
