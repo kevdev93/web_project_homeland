@@ -1,0 +1,14 @@
+.place__figure {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+}
+
+@media (max-width: 320px) {
+  .place__figure {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+}

@@ -1,0 +1,18 @@
+.place__info {
+  grid-column: 2;
+  grid-row: 2;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .place__info {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__info {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}

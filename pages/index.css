@@ -1,9 +1,27 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+
+/* Bloques principales */
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/lead.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
-@import url("../blocks/places.css");
+
+/* Bloque photo-grid */
 @import url("../blocks/photo-grid.css");
+@import url("../blocks/photo-grid__link.css");
+@import url("../blocks/photo-grid__item.css");
+
+/* Bloque places */
+@import url("../blocks/places.css");
+@import url("../blocks/place.css");
+@import url("../blocks/place__title.css");
+@import url("../blocks/place__artists.css");
+@import url("../blocks/place__website.css");
+@import url("../blocks/place__artist.css");
+@import url("../blocks/place__figure.css");
+@import url("../blocks/place__image.css");
+@import url("../blocks/place__info.css");
+@import url("../blocks/place__paragraph.css");
+@import url("../blocks/place__button.css");

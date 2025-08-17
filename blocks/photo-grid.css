@@ -8,17 +8,6 @@
   max-width: calc(4 * 284px + 3 * 16px);
 }
 
-.photo-grid__link {
-  display: block;
-}
-
-.photo-grid .item {
-  width: 284px;
-  height: 213px;
-  object-fit: cover;
-  display: block;
-}
-
 @media (max-width: 1200px) {
   .photo-grid {
     grid-template-columns: repeat(3, 284px);
@@ -39,10 +28,5 @@
     grid-auto-rows: auto;
     max-width: 100%;
     margin: 40px 0 80px;
-  }
-  .photo-grid .item {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 284 / 213;
   }
 }

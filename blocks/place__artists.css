@@ -1,0 +1,15 @@
+.place__artists {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: end;
+}
+
+@media (max-width: 320px) {
+  .place__artists {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
