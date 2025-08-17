@@ -1,19 +1,16 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
 
-/* Bloques principales */
 @import url("../blocks/page.css");
 @import url("../blocks/header.css");
 @import url("../blocks/lead.css");
 @import url("../blocks/intro.css");
 @import url("../blocks/footer.css");
 
-/* Bloque photo-grid */
 @import url("../blocks/photo-grid.css");
 @import url("../blocks/photo-grid__link.css");
 @import url("../blocks/photo-grid__item.css");
 
-/* Bloque places */
 @import url("../blocks/places.css");
 @import url("../blocks/place.css");
 @import url("../blocks/place__title.css");
